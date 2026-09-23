@@ -1,0 +1,6 @@
+{
+  "name": "Açaí do Japa - Santa Maria Norte | O Melhor da Cidade",
+  "description": "Experiência gastronômica de luxo e cardápio interativo do Açaí do Japa em Santa Maria Norte. Monte seu açaí artesanal, descubra receitas autorais e peça direto pelo Yooga ou WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
