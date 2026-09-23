@@ -39,16 +39,15 @@ export const Footer: React.FC = () => {
               href="#fidelidade"
               className="text-stone-300 hover:text-amber-300 transition-colors"
             >
-              Clube Yooga
+              Clube Fidelidade
             </a>
             <a
-              href={STORE_INFO.yoogaUrl}
+              href={`https://wa.me/${STORE_INFO.phone}?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20no%20A%C3%A7a%C3%AD%20do%20Japa!`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-amber-400 hover:text-amber-300 transition-colors"
+              className="inline-flex items-center gap-1 text-emerald-400 hover:text-emerald-300 transition-colors font-semibold"
             >
-              <span>Aplicativo Yooga</span>
-              <ExternalLink className="w-3.5 h-3.5" />
+              <span>Pedir no WhatsApp</span>
             </a>
           </div>
         </div>

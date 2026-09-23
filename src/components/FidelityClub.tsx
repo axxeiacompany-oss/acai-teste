@@ -22,7 +22,7 @@ export const FidelityClub: React.FC = () => {
           <div className="lg:col-span-5 text-left space-y-5">
             <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-amber-400">
               <Gift className="w-3.5 h-3.5 text-amber-400" />
-              <span>Clube Fidelidade Exclusivo Yooga</span>
+              <span>Clube Fidelidade Exclusivo do Japa</span>
             </div>
 
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-stone-100 [text-wrap:balance]">
@@ -30,7 +30,7 @@ export const FidelityClub: React.FC = () => {
             </h2>
 
             <p className="text-sm text-stone-300 leading-relaxed font-light">
-              No aplicativo oficial de delivery do <strong>Açaí do Japa</strong>, cada pedido acumula pontos automáticos vinculados ao seu número de telefone.
+              No atendimento oficial do <strong>Açaí do Japa</strong>, cada pedido acumula pontos automáticos vinculados ao seu número de WhatsApp.
               Troque seus pontos por adicionais nobres, açaís completos e barcas monumentais!
             </p>
 
@@ -40,7 +40,7 @@ export const FidelityClub: React.FC = () => {
                 <span className="font-bold text-amber-300 uppercase tracking-wider">
                   Cupom de Primeira Compra
                 </span>
-                <span className="text-[11px] text-stone-400">Válido no Yooga e Delivery</span>
+                <span className="text-[11px] text-stone-400">Válido no Delivery & Balcão</span>
               </div>
               <div className="flex items-center justify-between bg-black/50 p-2.5 rounded-lg border border-amber-500/20">
                 <span className="font-mono text-base font-black text-amber-400 tracking-wider">
@@ -64,19 +64,17 @@ export const FidelityClub: React.FC = () => {
                 </button>
               </div>
               <p className="text-[11px] text-stone-400">
-                Receba 10% de desconto imediato no seu primeiro açaí gourmet.
+                Receba 10% de desconto imediato no seu primeiro açaí gourmet aqui no cardápio.
               </p>
             </div>
 
             <div>
               <a
-                href={STORE_INFO.yoogaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#cardapio"
                 className="inline-flex items-center gap-2 text-xs font-bold text-amber-300 hover:text-amber-200 transition-colors"
               >
-                <span>Acessar painel de pontos no Yooga</span>
-                <ExternalLink className="w-3.5 h-3.5" />
+                <span>Fazer pedido agora para acumular pontos</span>
+                <ArrowRight className="w-3.5 h-3.5" />
               </a>
             </div>
           </div>

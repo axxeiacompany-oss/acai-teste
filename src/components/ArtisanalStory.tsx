@@ -115,7 +115,7 @@ export const ArtisanalStory: React.FC = () => {
             Depoimentos Reais
           </span>
           <h3 className="font-display text-2xl font-bold text-stone-100">
-            A Opinião de Quem Pede no Yooga e no WhatsApp
+            A Opinião de Quem Já Provou e Aprovou
           </h3>
         </div>
 

@@ -75,33 +75,31 @@ export const LocationHours: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: Direct Navigation & Yooga CTA Card */}
+          {/* Right Column: Direct Order & WhatsApp Card */}
           <div className="lg:col-span-5 bg-gradient-to-br from-[#160b24] to-[#0f0618] border border-amber-500/30 rounded-2xl p-6 sm:p-8 text-left shadow-2xl space-y-6">
             <div className="space-y-2">
               <span className="text-[11px] font-mono uppercase tracking-wider text-amber-400 font-bold block">
-                Canais de Pedido Oficiais
+                Atendimento Direto & Exclusivo
               </span>
               <h3 className="font-display text-2xl font-bold text-stone-100">
                 Pronto para se Deliciar?
               </h3>
               <p className="text-xs text-stone-300 leading-relaxed font-light">
-                Escolha o canal de sua preferência. Pelo Yooga você pontua no programa de fidelidade; pelo WhatsApp você fala diretamente com nossos atendentes.
+                Monte seu pedido personalizado pelo cardápio digital ou fale diretamente com a nossa equipe no WhatsApp para entrega rápida e atendimento sob medida.
               </p>
             </div>
 
             <div className="space-y-3 pt-2">
               <a
-                href={STORE_INFO.yoogaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#cardapio"
                 className="w-full flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-stone-950 font-bold text-xs shadow-lg shadow-amber-950/40 transition-all cursor-pointer"
               >
                 <div className="flex items-center gap-2.5">
-                  <ExternalLink className="w-4 h-4 text-stone-950" />
-                  <span>Pedir pelo Yooga (Acumula Pontos)</span>
+                  <Navigation className="w-4 h-4 text-stone-950" />
+                  <span>Escolher no Cardápio & Montar</span>
                 </div>
                 <span className="text-[10px] bg-stone-950 text-amber-300 px-2 py-0.5 rounded font-mono">
-                  Recomendado
+                  Online
                 </span>
               </a>
 

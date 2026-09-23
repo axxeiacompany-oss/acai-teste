@@ -148,7 +148,7 @@ export default function App() {
           onQuickAdd={handleQuickAdd}
         />
 
-        {/* Loyalty & Rewards Simulator (Yooga Club) */}
+        {/* Loyalty & Rewards Simulator (Fidelity Club) */}
         <FidelityClub />
 
         {/* Craftsmanship, Sourcing & Testimonials */}

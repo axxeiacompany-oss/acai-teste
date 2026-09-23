@@ -60,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             O Segredo do Japa
           </a>
           <a href="#fidelidade" className="hover:text-amber-300 transition-colors">
-            Clube Yooga VIP
+            Clube Fidelidade VIP
           </a>
           <a href="#localizacao" className="hover:text-amber-300 transition-colors">
             Localização
@@ -69,16 +69,15 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Zone 3: Primary Actions */}
         <div className="flex items-center gap-3">
-          {/* Yooga Direct Order Button */}
+          {/* WhatsApp Direct Order Button */}
           <a
-            href={STORE_INFO.yoogaUrl}
+            href={`https://wa.me/${STORE_INFO.phone}?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20no%20A%C3%A7a%C3%AD%20do%20Japa!`}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-amber-200 border border-amber-400/30 rounded-lg bg-amber-950/30 hover:bg-amber-900/40 hover:border-amber-400/60 transition-all"
-            title="Abrir aplicativo no Yooga"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-emerald-300 border border-emerald-500/40 rounded-lg bg-emerald-950/30 hover:bg-emerald-900/40 hover:border-emerald-400/60 transition-all"
+            title="Fazer pedido direto pelo WhatsApp"
           >
-            <ExternalLink className="w-3.5 h-3.5 text-amber-400" />
-            <span className="whitespace-nowrap">Pedir no Yooga</span>
+            <span className="whitespace-nowrap">Pedir no WhatsApp</span>
           </a>
 
           {/* Cart Bag Button */}
@@ -138,7 +137,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setMobileMenuOpen(false)}
             className="block text-base font-medium text-stone-200 hover:text-amber-300"
           >
-            Clube Yooga & Pontos
+            Clube Fidelidade & Prêmios
           </a>
           <a
             href="#localizacao"
@@ -150,13 +149,12 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div className="pt-3 border-t border-purple-900/50 flex flex-col gap-2">
             <a
-              href={STORE_INFO.yoogaUrl}
+              href={`https://wa.me/${STORE_INFO.phone}?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20no%20A%C3%A7a%C3%AD%20do%20Japa!`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border border-amber-500/40 text-amber-300 text-sm font-semibold bg-amber-950/20"
+              className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg border border-emerald-500/40 text-emerald-300 text-sm font-semibold bg-emerald-950/20"
             >
-              <ExternalLink className="w-4 h-4" />
-              Abrir Loja Oficial no Yooga
+              Pedir pelo WhatsApp
             </a>
           </div>
         </div>
