@@ -12,6 +12,7 @@ export const STORE_INFO = {
   whatsappDisplay: '(61) 99999-9999',
   address: 'Quadra 216/316 - Santa Maria Norte, Brasília - DF',
   hours: 'Todos os dias das 13:00 às 23:30',
+  yoogaUrl: 'https://delivery.yooga.app/acaidojapasantamaria/tabs/home',
   googleRating: 4.9,
   totalReviews: 1280,
   minDeliveryTime: '30-45 min',

@@ -68,12 +68,21 @@ export const FidelityClub: React.FC = () => {
               </p>
             </div>
 
-            <div>
+            <div className="flex flex-col sm:flex-row gap-3 pt-1">
+              <a
+                href={STORE_INFO.yoogaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-stone-950 text-xs font-bold transition-all shadow-md"
+              >
+                <span>Acessar Pontos no App Yooga</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
               <a
                 href="#cardapio"
-                className="inline-flex items-center gap-2 text-xs font-bold text-amber-300 hover:text-amber-200 transition-colors"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl border border-stone-800 hover:border-amber-400/40 text-xs font-semibold text-stone-200 transition-colors"
               >
-                <span>Fazer pedido agora para acumular pontos</span>
+                <span>Pedir no Cardápio</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </a>
             </div>

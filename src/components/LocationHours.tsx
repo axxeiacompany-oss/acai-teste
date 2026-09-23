@@ -91,15 +91,17 @@ export const LocationHours: React.FC = () => {
 
             <div className="space-y-3 pt-2">
               <a
-                href="#cardapio"
+                href={STORE_INFO.yoogaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-stone-950 font-bold text-xs shadow-lg shadow-amber-950/40 transition-all cursor-pointer"
               >
                 <div className="flex items-center gap-2.5">
-                  <Navigation className="w-4 h-4 text-stone-950" />
-                  <span>Escolher no Cardápio & Montar</span>
+                  <ExternalLink className="w-4 h-4 text-stone-950" />
+                  <span>Pedir no Yooga Oficial (Acumula Pontos)</span>
                 </div>
                 <span className="text-[10px] bg-stone-950 text-amber-300 px-2 py-0.5 rounded font-mono">
-                  Online
+                  Delivery App
                 </span>
               </a>
 
@@ -119,17 +121,15 @@ export const LocationHours: React.FC = () => {
               </a>
 
               <a
-                href="https://maps.google.com/?q=Santa+Maria+Norte+Brasilia+DF"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#cardapio"
                 className="w-full flex items-center justify-between p-4 rounded-xl border border-stone-800 bg-[#12071a] hover:border-amber-400/40 text-stone-300 hover:text-white font-medium text-xs transition-all cursor-pointer"
               >
                 <div className="flex items-center gap-2.5">
                   <Navigation className="w-4 h-4 text-amber-400" />
-                  <span>Ver Rota no Google Maps</span>
+                  <span>Navegar pelo Cardápio Completo</span>
                 </div>
                 <span className="text-[11px] text-stone-400">
-                  Santa Maria Norte
+                  Online
                 </span>
               </a>
             </div>

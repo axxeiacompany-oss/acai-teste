@@ -380,6 +380,16 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   <MessageCircle className="w-4 h-4" />
                   <span>Enviar Pedido Pronto no WhatsApp</span>
                 </button>
+
+                <a
+                  href={STORE_INFO.yoogaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl border border-amber-500/40 bg-amber-950/20 hover:bg-amber-900/30 text-amber-300 font-semibold text-xs transition-all text-center"
+                >
+                  <ExternalLink className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Pedir no Yooga Oficial (Acumular Pontos)</span>
+                </a>
               </div>
             </div>
           )}
